@@ -11,6 +11,9 @@ module.exports = {
     path: PUBLIC_DIR,
     filename: 'bundle.js'
   },
+  devserver: {
+    contentbase: PUBLIC_DIR,
+  },
   module: {
     rules: [{
       test: /\.jsx?$/,
