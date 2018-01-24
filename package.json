@@ -5,7 +5,7 @@
   "author": "Robert Shaw <r.shaw1@yahoo.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open --watch"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
